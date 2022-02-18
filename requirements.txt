@@ -1,0 +1,11 @@
+geomloss==0.2.4
+imageio==2.9.0
+MedPy==0.4.0
+opencv-python==4.5.3.56
+yacs==0.1.8
+segmentation-models-pytorch==0.2.0
+timm==0.4.12
+scipy==1.7.0
+scikit-image==0.19.1
+scikit-learn==0.24.2
+pykeops==1.5

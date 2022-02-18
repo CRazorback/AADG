@@ -12,7 +12,7 @@ import torch.utils.data.distributed
 from torch.utils.tensorboard import SummaryWriter
 from torchmetrics import F1
 from data.dataloader import get_seg_dg_dataloader
-from data.policy import DGMultiPolicy, RandAugment, parse_policies 
+from data.policy import DGMultiPolicy, parse_policies 
 from models import load_ddp_controller, load_ddp_discriminator, load_ddp_model
 from scheduler import get_dis_optimizer_scheduler, get_optimizer_scheduler
 from losses import search_loss, task_loss, CrossEntropy
