@@ -1,0 +1,23 @@
+PRINT_FREQ: 10
+DATASET:
+  NAME: optic
+  ROOT: './dataset/Fundus/'
+  DG:
+    TRAIN: [4, 2, 3]
+    TEST: [1]
+MODEL:
+  NAME: deeplabv3+
+  BACKBONE: mobilenet_v2
+CONTROLLER:
+  LOSS: ppo
+  M: 6
+  T: 2
+  C: 2.5
+DISCRIMINATOR:
+  NAME: momentum_feature
+TRAIN:
+  LR: 0.001
+  WD: 0.0
+  BATCH_SIZE: 8
+  WARMUP_EPOCH: 30
+  END_EPOCH: 150
