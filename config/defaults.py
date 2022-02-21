@@ -68,9 +68,6 @@ _C.TEST.MODEL_DIR = ''
 def update_config(cfg, args):
     cfg.defrost()
     cfg.merge_from_file(args.cfg)
-    cfg.CONTROLLER.L = args.L
-    cfg.CONTROLLER.NUM_MAGS = args.num_mags
-    cfg.CONTROLLER.EXCLUDE_OPS_NUM = args.exclude_ops_num
     cfg.OUTPUT_DIR = args.output_dir
     cfg.SEED = args.seed
     cfg.freeze()

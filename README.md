@@ -53,5 +53,11 @@ AADG
 Please specify the configuration file in ```experiments```.
 
 ```shell
-python run.py --mode search --cfg <CONFIG-FILE> --output_dir <CUSTOM-OUTPUT-DIR>
+python run.py --cfg <CONFIG-FILE> --output_dir <CUSTOM-OUTPUT-DIR>
+```
+
+For example,
+
+```shell
+python run.py --cfg experiments/rvs_sinkhorn/diversity_ex.yaml --output_dir output/
 ```

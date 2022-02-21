@@ -9,3 +9,4 @@ scipy==1.7.0
 scikit-image==0.19.1
 scikit-learn==0.24.2
 pykeops==1.5
+torchmetrics==0.4.1
