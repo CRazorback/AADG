@@ -1,6 +1,8 @@
 # AADG
 
-This repository contains an implementation of AADG for the TMI submission "Augmentation Is All You Need: Searching for Domain Generalized Fundus Image Augmentation".
+By Junyan Lyu, Yiqi Zhang, Yijin Huang, Li Lin, Pujin Cheng, Xiaoying Tang.
+
+This repository contains an official implementation of AADG for the TMI paper ["AADG: Automatic Augmentation for Domain Generalization on Retinal Image Segmentation"](https://ieeexplore.ieee.org/document/9837077).
 
 ## Quick start
 
@@ -60,4 +62,19 @@ For example,
 
 ```shell
 python run.py --cfg experiments/rvs_sinkhorn/diversity_ex.yaml --output_dir output/
+```
+
+## Citation
+If you find this repository useful, please consider citing AADG paper:
+
+```
+@ARTICLE{9837077,
+  author={Lyu, Junyan and Zhang, Yiqi and Huang, Yijin and Lin, Li and Cheng, Pujin and Tang, Xiaoying},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={AADG: Automatic Augmentation for Domain Generalization on Retinal Image Segmentation}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2022.3193146}}
 ```
