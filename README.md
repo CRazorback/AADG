@@ -4,6 +4,8 @@ By Junyan Lyu, Yiqi Zhang, Yijin Huang, Li Lin, Pujin Cheng, Xiaoying Tang.
 
 This repository contains an official implementation of AADG for the TMI paper ["AADG: Automatic Augmentation for Domain Generalization on Retinal Image Segmentation"](https://ieeexplore.ieee.org/document/9837077).
 
+![image](./assets/pipeline.jpg)
+
 ## Quick start
 
 ### Environment
