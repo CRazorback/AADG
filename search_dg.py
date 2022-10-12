@@ -326,7 +326,6 @@ def search_seg_dg_policy(gpu, ngpus_per_node, config, args):
                 train_sampler.set_epoch(epoch)
 
         if config.TRAIN.WARMUP_EPOCH > epoch:
-            train_loader.dataset.transforms.transforms[0] = RandAugment(N=2)
             pretrain(config, train_loader, model, discriminator, model_criterion,
                      dis_criterion, model_optimizer, dis_optimizer, epoch, writer_dict, logger)
             model_lrscheduler.step()
