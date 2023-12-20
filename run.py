@@ -43,6 +43,8 @@ def main():
 
     # convenient for ablation study
     parser.add_argument('--output_dir', default='output', type=str)
+    parser.add_argument('--vis_dir', default='vis', type=str)
+    parser.add_argument('--output_type', default='image', type=str)
     parser.add_argument('--seed', default=1023, type=int)
 
     args = parser.parse_args()
